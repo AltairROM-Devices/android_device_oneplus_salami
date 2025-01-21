@@ -967,4 +967,16 @@
     <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
     <string name="config_dozeUdfpsLongPressSensorType" translatable="false">org.lineageos.sensor.udfps</string>
 
+    <!-- Maximum screen brightness allowed by the power manager.
+    -2 is invalid so setting will resort to int value specified above.
+    Set this to 1.0 for maximum brightness range.
+    The user is forbidden from setting the brightness above this level. -->
+    <item type="dimen" name="config_screenBrightnessSettingMaximumFloat">1.0</item>
+
+    <!-- Minimum screen brightness setting allowed by power manager.
+    -2 is invalid so setting will resort to int value specified above.
+    Set this to 0.0 to allow screen to go to minimal brightness.
+    The user is forbidden from setting the brightness below this level. -->
+    <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">0.00199609</item>
+
 </resources>
