@@ -1,6 +1,44 @@
 [
   {
-    "repository": "android_device_oneplus_sm8550-common",
-    "target_path": "device/oneplus/sm8550-common"
+    "remote": "altair",
+    "repository": "AltairROM-Devices/android_device_oneplus_sm8550-common",
+    "target_path": "device/oneplus/sm8550-common",
+    "revision": "15"
+  },
+  {
+    "remote": "altair",
+    "repository": "AltairROM/android_hardware_oplus",
+    "target_path": "hardware/oplus",
+    "revision": "15"
+  },
+  {
+    "remote": "lineage",
+    "repository": "android_kernel_oneplus_sm8550",
+    "target_path": "kernel/oneplus/sm8550",
+    "revision": "lineage-22.2"
+  },
+  {
+    "remote": "lineage",
+    "repository": "android_kernel_oneplus_sm8550-devicetrees",
+    "target_path": "kernel/oneplus/sm8550-devicetrees",
+    "revision": "lineage-22.2"
+  },
+  {
+    "remote": "lineage",
+    "repository": "android_kernel_oneplus_sm8550-modules",
+    "target_path": "kernel/oneplus/sm8550-modules",
+    "revision": "lineage-22.2"
+  },
+  {
+    "remote": "tm",
+    "repository": "proprietary_vendor_oneplus_salami",
+    "target_path": "vendor/oneplus/salami",
+    "revision": "lineage-22.2"
+  },
+  {
+    "remote": "tm",
+    "repository": "proprietary_vendor_oneplus_sm8550-common",
+    "target_path": "vendor/oneplus/sm8550-common",
+    "revision": "lineage-22.2"
   }
 ]
