@@ -1,3 +1,6 @@
+# Device name
+ro.product.marketname=OnePlus 11 5G
+
 # Regional properties
 ro.product.property_source_order=odm,vendor,product,system_ext,system
 import /odm/etc/${ro.boot.prjname}/build.default.prop
